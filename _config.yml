@@ -6,7 +6,7 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            Poole
+title:            Lyubo Blog
 tagline:          'The Jekyll Butler'
 description:      'Base theme for Jekyll themes by @mdo.'
 url:              http://getpoole.com
@@ -22,3 +22,5 @@ version:          1.0.0
 
 github:
   repo:           https://github.com/poole/poole
+
+baseurl: /christmas-recipes

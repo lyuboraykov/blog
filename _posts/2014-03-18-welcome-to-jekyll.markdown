@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 
 {% highlight python %}
-def print_hello(name)
+def print_hello(name):
   print("Hello, {}!".format(name))
 print_hello('World')
 #=> prints 'Hello, World' to STDOUT.

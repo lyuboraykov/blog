@@ -9,7 +9,7 @@ categories: jekyll update
 def print_hello(name):
   print("Hello, {}!".format(name))
 print_hello('World')
-#=> отпечатва 'Hello, World' to STDOUT.
+#=> отпечатва 'Hello, World' на STDOUT.
 {% endhighlight %}
 
 [Lyubo Raykov](http://lyuboraykov.com)

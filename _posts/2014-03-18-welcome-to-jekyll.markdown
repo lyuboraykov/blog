@@ -4,7 +4,7 @@ title:  "Hello World!"
 date:   2014-03-18 21:01:26
 categories: jekyll update
 ---
-
+Очаквайте...
 {% highlight python %}
 def print_hello(name):
   print("Hello, {}!".format(name))

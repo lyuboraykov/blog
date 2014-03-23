@@ -14,6 +14,29 @@
  * Source: http://css-tricks.com/off-canvas-menu-with-css-target/#comment-207504
  */
 
+@media (min-width: 38rem) {
+  .container {
+    max-width: 32rem;
+  }
+}
+@media (min-width: 56rem) {
+  .container {
+    max-width: 38rem;
+  }
+}
+
+
+@media (max-width: 48rem) {
+  .masthead-title {
+    text-align: center;
+  }
+  .masthead-title small {
+    display: none;
+  }
+}
+
+
+
 /* Style and "hide" the sidebar */
 .sidebar {
   position: fixed;

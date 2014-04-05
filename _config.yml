@@ -23,5 +23,4 @@ version:          1.0.0
 github:
   repo:           https://github.com/lyboraykov/blog
 
-# baseurl:          https://lyuboraykov.github.io/blog
-baseurl: 
+baseurl:          https://lyuboraykov.github.io/blog

@@ -7,8 +7,8 @@ permalink:        pretty
 
 # Setup
 title:            Coming soon
-tagline:          'The Python Blog'
-description:      'Питонския блог.'
+tagline:          'to code or not to code...'
+description:      'A developer blog about coding problems, life events and more'
 url:              http://lyuboraykob.github.io/blog
 
 author:
@@ -23,4 +23,5 @@ version:          1.0.0
 github:
   repo:           https://github.com/lyboraykov/blog
 
-baseurl:          https://lyuboraykov.github.io/blog
+# baseurl:          https://lyuboraykov.github.io/blog
+baseurl: 

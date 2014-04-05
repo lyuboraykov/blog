@@ -1,8 +1,8 @@
 ---
 layout: page
-title: За мен
+title: About me
 ---
 
 <p class="message">
-  Във VMware и ФМИ през деня, и заспал през нощта.
+  In VMware at day and asleep at night.
 </p>

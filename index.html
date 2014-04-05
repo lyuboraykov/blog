@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Начало
+title: Beginning
 ---
 
 <div class="posts">
@@ -21,17 +21,17 @@ title: Начало
 
 <div class="pagination">
   {% if paginator.next_page %}
-    <a class="pagination-item older" href="/page{{paginator.next_page}}">По-стари</a>
+    <a class="pagination-item older" href="/page{{paginator.next_page}}">Older</a>
   {% else %}
-    <span class="pagination-item older">По-стари</span>
+    <span class="pagination-item older">Older</span>
   {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{site.baseurl}}">По-нови</a>
+      <a class="pagination-item newer" href="{{site.baseurl}}">Newer</a>
     {% else %}
-      <a class="pagination-item newer" href="{{site.baseurl}}/page{{paginator.previous_page}}">По-нови</a>
+      <a class="pagination-item newer" href="{{site.baseurl}}/page{{paginator.previous_page}}">Older</a>
     {% endif %}
   {% else %}
-    <span class="pagination-item newer">По-нови</span>
+    <span class="pagination-item newer">Newer</span>
   {% endif %}
 </div>

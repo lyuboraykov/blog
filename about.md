@@ -10,4 +10,4 @@ You can find more details about me at:
 [My Portfolio](http://lyuboraykov.com)
 
 
-Or you can download my [CV](http://lyuboraykov.com/cv.docx)
+Or you can download my [CV](http://lyuboraykov.com/cv.pdf)

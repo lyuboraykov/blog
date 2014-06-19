@@ -6,7 +6,7 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            '@raykov'
+title:            '#!/bin/raykov'
 tagline:          'to code or not to code...'
 description:      'A developer blog about coding problems, life events and more'
 url:              http://lyuboraykob.github.io/blog

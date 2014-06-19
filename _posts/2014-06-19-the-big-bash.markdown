@@ -15,4 +15,33 @@ But that's not the case with ***Bash***...
 
 >This is the most opinionated and nonobjective blog post you'll see on the internet.
 
-Now that we've cleared that out let's take a look at some examples. 
+### The Real Deal
+Now that we've cleared that out let's take a look at some examples.
+Let's start with the basics and assign value to a variable:
+
+{% highlight bash %}
+FOO = bar
+
+#outputs:
+#FOO: command not found
+{% endhighlight %}
+
+Intuitive right? And *FOO* will be unasigned. But we are Bash gurus
+and we all know that the spaces are the issue.
+So let's try:
+
+{% highlight bash %}
+FOO= bar
+
+#If you are on Ubuntu will output:
+#The program 'bar' is currently not installed.
+{% endhighlight %}
+
+We haven't given up:
+
+{% highlight bash %}
+FOO =bar
+
+#And again:
+#FOO: command not found
+{% endhighlight %}

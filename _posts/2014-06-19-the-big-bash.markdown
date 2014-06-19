@@ -98,3 +98,5 @@ done
 {% endhighlight %}
 
 ![](http://www.bildschirmarbeiter.com/content/images/why-fu/why-fu-010.jpg)
+
+## Time to get serious...

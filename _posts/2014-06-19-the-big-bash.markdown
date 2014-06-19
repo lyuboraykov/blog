@@ -61,8 +61,29 @@ It all has a reason, in the first case it tries to launch *FOO* and supply
 In the second one it assings an empty string to *FOO* and tries to launch *bar*.
 And in the last not working one it tries to parse *'=bar'* as a parameter to *FOO*.
 
-Now it all makes sence, right? I'm not done yet.
-We all know *if* blocks should end with *fi*. Same goes for *case* - *esac*.
+Now it all makes sence, right? 
+
+I'm not done yet.
+We all know *'if'* blocks should end with *fi*.
+For instance:
+
+{% highlight bash %}
+if [ ! -z $FOO ]; then
+    echo $FOO
+fi
+{% endhighlight %}
+
+Same goes for *case* - *esac*.
+
+{% highlight bash %}
+case $FOO in 
+   bar )
+    echo bar ;;
+   bar2 )
+    echo bar2 ;;
+esac
+{% endhighlight %}
+
 Souds legit. And speaking of consistency - all loop code blocks end with *done*...
 
 ![](http://www.bildschirmarbeiter.com/content/images/why-fu/why-fu-010.jpg)

@@ -120,7 +120,7 @@ if [[ ! $FOO = '' ]]; then
 fi
 {% endhighlight %}
 
-Same thing:
+ditto:
 
 {% highlight bash %}
 test ! -z $FOO && echo $FOO

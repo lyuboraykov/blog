@@ -100,3 +100,53 @@ done
 ![](http://www.bildschirmarbeiter.com/content/images/why-fu/why-fu-010.jpg)
 
 ## Time to get serious...
+
+We can all and we have gotten over it. But there is one thing I can't
+cope with in Bash - the sheer amount of syntax. Bare with me.
+
+Look at the example I gave for the *if* conditional block.
+
+{% highlight bash %}
+if [ ! -z $FOO ]; then
+    echo $FOO
+fi
+{% endhighlight %}
+
+The same thing can be achieved like that:
+
+{% highlight bash %}
+if [[ ! $FOO = '' ]]; then
+    echo $FOO
+fi
+{% endhighlight %}
+
+Same thing:
+
+{% highlight bash %}
+test ! -z $FOO && echo $FOO
+{% endhighlight %}
+
+I'm not done:
+
+{% highlight bash %}
+[ ! -z $FOO ] && echo $FOO
+{% endhighlight %}
+
+For function declaration you can use the *function* keyword or use *parantheses*.
+
+
+For text manipulation you have *sed*, *awk*, *grep*, *expr*, *=~*, even *##*, *%*, *#* for substrings and both regular expressions and wildcards.
+
+![](http://www.bildschirmarbeiter.com/content/images/why-fu/why-fu-016.jpg)
+
+## The fearsome shell
+
+I'm aware of the **small tools** philosophy and it is genious, but
+is it confusing and intimidating for a newcomer. It sure is flexible, 
+but intuition has no place in the code of a Bash developer. Sure it's not 
+meant for big projects, but why shouldn't it be.
+
+Or as a friend of mine once said:
+
+> I read articles about 'Best practises in Bash' everyday, but in the end of the day,
+ I say to myself get over it - it's Bash.

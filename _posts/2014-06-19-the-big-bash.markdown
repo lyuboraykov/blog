@@ -56,6 +56,9 @@ echo $FOO
 #outputs bar
 {% endhighlight %}
 
+![](http://www.bildschirmarbeiter.com/content/images/why-fu/why-fu-013.jpg)
+
+
 It all has a reason, in the first case it tries to launch *FOO* and supply
 *'='* and *'bar'* as parameters. 
 In the second one it assings an empty string to *FOO* and tries to launch *bar*.

@@ -64,7 +64,7 @@ And in the last not working one it tries to parse *'=bar'* as a parameter to *FO
 Now it all makes sence, right? 
 
 I'm not done yet.
-We all know *'if'* blocks should end with *fi*.
+We all know *if* blocks should end with *fi*.
 For instance:
 
 {% highlight bash %}
@@ -84,6 +84,14 @@ case $FOO in
 esac
 {% endhighlight %}
 
-Souds legit. And speaking of consistency - all loop code blocks end with *done*...
+Souds legit. And speaking of consistency - all loop code blocks (for, while, until)
+should begin with *do* and end with *done*...
+
+{% highlight bash %}
+for i in $(seq 1 2 20)
+do
+   echo "foo $i"
+done
+{% endhighlight %}
 
 ![](http://www.bildschirmarbeiter.com/content/images/why-fu/why-fu-010.jpg)

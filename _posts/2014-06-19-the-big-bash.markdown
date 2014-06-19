@@ -143,8 +143,8 @@ For text manipulation you have *sed*, *awk*, *grep*, *expr*, *=~*, even *##*, *%
 
 I'm aware of the **small tools** philosophy and it is genious, but
 is it confusing and intimidating for a newcomer. It sure is flexible, 
-but intuition has no place in the code of a Bash developer. Sure it's not 
-meant for big projects, but why shouldn't it be.
+but intuition has no place in the code of a Bash developer. You'll say that it's not 
+meant for big projects, but why shouldn't it be, it has so many capabilities.
 
 Or as a friend of mine once said:
 

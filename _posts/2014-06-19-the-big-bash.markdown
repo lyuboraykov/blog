@@ -45,3 +45,20 @@ FOO =bar
 #And again:
 #FOO: command not found
 {% endhighlight %}
+
+Wait for it...
+
+{% highlight bash %}
+FOO=bar
+
+echo $FOO
+
+#outputs bar
+{% endhighlight %}
+
+It all has a reason, in the first case it tries to launch *FOO* and supply
+*'='* and *'bar'* as parameters. 
+In the second one it assings an empty string to *FOO* and tries to launch *bar*.
+And in the last not working one it tries to parse *'=bar'* as a parameter to *FOO*.
+
+Now it all makes sence, right?

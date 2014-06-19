@@ -136,6 +136,7 @@ For function declaration you can use the *function* keyword or use *parantheses*
 
 
 For text manipulation you have *sed*, *awk*, *grep*, *expr*, *=~*, even *##*, *%*, *#* for substrings and both regular expressions and wildcards.
+The list goes on and on...
 
 ![](http://www.bildschirmarbeiter.com/content/images/why-fu/why-fu-016.jpg)
 

@@ -149,4 +149,4 @@ meant for big projects, but why shouldn't it be, it has so many capabilities.
 Or as a friend of mine once said:
 
 > I read articles about 'Best practises in Bash' everyday, but in the end of the day,
- I say to myself get over it - it's Bash.
+ I say to myself: "Get over it - it's Bash".

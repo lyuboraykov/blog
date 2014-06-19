@@ -61,4 +61,8 @@ It all has a reason, in the first case it tries to launch *FOO* and supply
 In the second one it assings an empty string to *FOO* and tries to launch *bar*.
 And in the last not working one it tries to parse *'=bar'* as a parameter to *FOO*.
 
-Now it all makes sence, right?
+Now it all makes sence, right? I'm not done yet.
+We all know *if* blocks should end with *fi*. Same goes for *case* - *esac*.
+Souds legit. And speaking of consistency - all loop code blocks end with *done*...
+
+![](http://www.bildschirmarbeiter.com/content/images/why-fu/why-fu-010.jpg)

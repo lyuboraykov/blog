@@ -15,7 +15,7 @@ to get the job done instead of doing it myself.
 
 Just make a confession:
 * If you have to click 150 links in a website will you click them or will you *make python do it*?
-* You have to deploy an application server - will you follow the instructions or look in (Dockerhub)[https://hub.docker.com/]?
+* You have to deploy an application server - will you follow the instructions or look in[Dockerhub](https://hub.docker.com/)?
 * You need a CentOS VM - will you download the iso and install it yourself or *look for an OVF*?
 * You have to donwload songs for your friend's car audio - will you download the by hand or get them from youtube with a script?
 
@@ -26,6 +26,6 @@ a rule to iptables?
 
 But there is one bad side to so much automation - **the waiting**.
 I can't count the times when I've opened 4 shells, typed in some commands and then
-started staring out of the window. Have you ever wondered why (Hackernews)[https://news.ycombinator.com/]
+started staring out of the window. Have you ever wondered why [Hackernews](https://news.ycombinator.com/)
 has so many Devops and infrastructure related articles, because Puppet and Ansible can do the work
 while the guys are blogging (now you know *why* I started the blog...)

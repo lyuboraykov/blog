@@ -14,10 +14,10 @@ I'm the only one that prefers writing a good script
 to get the job done instead of doing it myself.
 
 Just make a confession:
-  * If you have to click 150 links in a website will you click them or will you *make python do it*?
-  * You have to deploy an application server - will you follow the instructions or look in (Dockerhub)[https://hub.docker.com/]?
-  * You need a CentOS VM - will you download the iso and install it yourself or *look for an OVF*?
-  * You have to donwload songs for your friend's car audio - will you download the by hand or get them from youtube with a script?
+* If you have to click 150 links in a website will you click them or will you *make python do it*?
+* You have to deploy an application server - will you follow the instructions or look in (Dockerhub)[https://hub.docker.com/]?
+* You need a CentOS VM - will you download the iso and install it yourself or *look for an OVF*?
+* You have to donwload songs for your friend's car audio - will you download the by hand or get them from youtube with a script?
 
 How can you match the feeling when you're doing a `docker pull` 
 instead of downloading the source for an application, building it,

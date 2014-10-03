@@ -5,7 +5,7 @@ date:   2014-08-25 17:22/l05
 categories: bash, devops
 ---
 
-I *love* automation. 
+I *love* automation.
 I mean it. Not just in production where it is mandatory (you can't run the *continuous integration*
 tests *by hand*, can you?), but during development too, hack I do it even when I have to download a song.
 There is nothing better than making the computer
@@ -18,9 +18,9 @@ Just make a confession:
 * If you have to click 150 links in a website will you click them or will you *make python do it*?
 * You have to deploy an application server - will you follow the instructions or look in [Dockerhub](https://hub.docker.com/)?
 * You need a CentOS VM - will you download the iso and install it yourself or *look for an OVF*?
-* You have to donwload songs for your friend's car audio - will you download the by hand or get them from youtube with a script?
+* You have to download songs for your friend's car audio - will you download the by hand or get them from youtube with a script?
 
-How can you match the feeling when you're doing a `docker pull` 
+How can you match the feeling when you're doing a `docker pull`
 instead of downloading the source for an application, building it,
 configuring the database and then seeing it not working because you had to add
 a rule to iptables?

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "My Password Manager"
-date:   2015-04- 14:22/l05
+date:   2015-04-14:22/l05
 categories: shell
 ---
 
